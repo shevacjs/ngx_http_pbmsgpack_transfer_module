@@ -9,7 +9,7 @@ date : 2014/4/16 18:00
 
 ### 概述 ###
 
-ngx_pbmsgpack_transfer_module 是一个用于支持贴吧客户端长连接迁移项目的nginx扩展，其主要功能是做protobuf和msgpack的格式转换，具体是在请求的时候，将protobuf格式的post body里面的内容转成msgpack格式； 在请求输出的时候将msgpack格式转成protobuf格式。  
+just test, ngx_pbmsgpack_transfer_module 是一个用于支持贴吧客户端长连接迁移项目的nginx扩展，其主要功能是做protobuf和msgpack的格式转换，具体是在请求的时候，将protobuf格式的post body里面的内容转成msgpack格式； 在请求输出的时候将msgpack格式转成protobuf格式。  
 
 实现层面的话，主要是设置一个access phase 和 filter phase 的钩子，采用lcs提供的protobuf/msgpack 转换lib。  
 
